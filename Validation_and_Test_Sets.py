@@ -254,6 +254,14 @@ train_df.head(n=10000)
 #                                       validation_split)
 
 
+# TODO: Task 3a: Experiment with validation_split to answer 
+# the following questions:
+#    With the training set shuffled, is the final loss 
+#       for the training set closer to the final loss for 
+#       the validation set?
+#    At what range of values of validation_split do the 
+#       final loss values for the training set and validation 
+#       set diverge meaningfully? Why?
 
 
 
