@@ -273,6 +273,18 @@ train_df.head(n=10000)
 # the validation set no longer contains enough examples.
 
 
+# TODO: Task 4: Use the Test Dataset to Evaluate Your 
+# Model's Performance
+# The test set usually acts as the ultimate judge of a 
+# model's quality. The test set can serve as an impartial 
+# judge because its examples haven't been used in training 
+# the model. Run the following code cell to evaluate the 
+# model with the test set:
+
+x_test = test_df[my_feature]
+y_test = test_df[my_label]
+
+results = my_model.evaluate(x_test, y_test, batch_size=batch_size)
 
 
 
