@@ -263,7 +263,14 @@ train_df.head(n=10000)
 #       final loss values for the training set and validation 
 #       set diverge meaningfully? Why?
 
+# Yes, after shuffling the original training set, 
+# the final loss for the training set and the 
+# validation set become much closer.
 
+# If validation_split < 0.15,
+# the final loss values for the training set and
+# validation set diverge meaningfully.  Apparently,
+# the validation set no longer contains enough examples.
 
 
 
